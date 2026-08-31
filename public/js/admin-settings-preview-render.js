@@ -49,7 +49,7 @@
       previewDevice: isMobilePreview ? 'mobile' : 'desktop',
       siteName: shared.getPreviewInputValueOrDefault(refs.homeSiteNameInput, current.home_site_name, '灰色轨迹'),
       siteDescription: shared.getPreviewInputValueOrDefault(refs.homeSiteDescriptionInput, current.home_site_description, '一个优雅、快速、易于部署的书签收藏与分享平台'),
-      footerText: shared.getPreviewInputValueOrDefault(refs.homeFooterTextInput, current.home_footer_text, '曾梦想仗剑走天涯'),
+      footerText: shared.getPreviewInputValueOrDefault(refs.homeFooterTextInput, current.home_footer_text, '曾梦想仗剑走天涯1'),
       hideTitle: !!refs.hideTitleSwitch?.checked,
       hideSubtitle: !!refs.hideSubtitleSwitch?.checked,
       hideStats: !!refs.hideStatsSwitch?.checked,
