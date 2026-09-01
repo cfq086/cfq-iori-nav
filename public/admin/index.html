@@ -45,9 +45,11 @@
           </svg>
           刷新缓存
         </button>
-        <button class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors shadow-sm font-medium text-sm h-[42px] whitespace-nowrap">
-          <a href="/" >返回首页</a>
-        </button>
+        <form method="get" action="/" style="margin: 0;">
+          <button class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors shadow-sm font-medium text-sm h-[42px] whitespace-nowrap">
+            返回首页
+          </button>
+        </form>
         <form method="post" action="/admin/logout" style="margin: 0;">
           <button type="submit" class="logout-btn">退出登录</button>
         </form>
